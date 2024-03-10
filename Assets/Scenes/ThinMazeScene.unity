@@ -245,9 +245,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   groundPrefab: {fileID: 3946747153211824597, guid: 71dcca5d11c217e429f4abab2ca848d4, type: 3}
-  wallPrefab: {fileID: 5590371400275749276, guid: c67030408688fae448d7a2d5544523ca, type: 3}
-  mapSizeX: 3
-  mapSizeY: 3
+  cornerPrefab: {fileID: 2004184437614074253, guid: e159f445672c4ab46833d0fdb090c23f, type: 3}
+  wallPrafabs:
+  - {fileID: 3511389325091013534, guid: 98eaa9083f89d0b44bba12022c1a9383, type: 3}
+  - {fileID: 6269586149604460885, guid: 07f2f878355e7df40bf7ae703b332d52, type: 3}
+  - {fileID: 1065087862117256756, guid: 454d28da101284e4f87594fae6917935, type: 3}
+  - {fileID: 639921554049131438, guid: 58647bd005b227a4b9081a427c1ddfa4, type: 3}
+  mapSizeX: 31
+  mapSizeY: 31
 --- !u!4 &1592485217
 Transform:
   m_ObjectHideFlags: 0
